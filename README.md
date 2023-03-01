@@ -33,8 +33,8 @@
 1. [Trojan-Go\Trojan+Nginx](https://github.com/lxhao61/integrated-examples/tree/main/Trojan-Go%5CTrojan%2BNginx)（Trojan-Go/Trojan回落Nginx应用。）
 2. [Trojan-Go\Trojan+Caddy(N)](https://github.com/lxhao61/integrated-examples/tree/main/Trojan-Go%5CTrojan%2BCaddy(N))（Trojan-Go/Trojan回落Caddy加NaiveProxy应用。）
 #### &emsp;Xray/V2Ray的VLESS与Trojan回落应用
-1. [V2Ray(VLESS+TCP+TLS)+Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BTCP%2BTLS)%2BNginx)（vless+tcp+tls回落Nginx应用。标记为E。）
-2. [V2Ray(VLESS+TCP+TLS)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BTCP%2BTLS)%2BCaddy)（vless+tcp+tls回落Caddy应用。标记为E。）
+1. [V2Ray(VLESS+TCP+TLS)+Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BTCP%2BTLS)%2BNginx)（vless+tcp+tls回落Nginx，含XTLS Vision应用。标记为E。）
+2. [V2Ray(VLESS+TCP+TLS)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BTCP%2BTLS)%2BCaddy)（vless+tcp+tls回落Caddy，含XTLS Vision应用。标记为E。）
 3. [V2Ray(Trojan+TCP+TLS)+Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BTCP%2BTLS)%2BNginx)（trojan+tcp+tls回落Nginx应用。标记为F。）
 4. [V2Ray(Trojan+TCP+TLS)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BTCP%2BTLS)%2BCaddy)（trojan+tcp+tls回落Caddy应用。标记为F。）
 #### &emsp;Caddy插件应用
@@ -67,7 +67,7 @@
 3. [V2Ray(E+B+F+C+D+G+A)+Caddy(N)+Nginx\HAProxy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(E%2BB%2BF%2BC%2BD%2BG%2BA)%2BCaddy(N)%2BNginx%5CHAProxy)（Trojan/Trojan-Go由Xray/V2Ray配置实现的综合应用。）
 #### &emsp;注意（以上所有示例）:
 1. Xray是V2Ray的超集，更好的整体性能和独有的XTLS Vision应用等一系列增强，且完全兼容V2Ray的v4版。
-2. Xray/V2Ray单一核心应用简记：A=vless+kcp+seed、B=vmess+ws+tls、C=trojan+ws+tls、D=vless+h2c+tls、E=vless+tcp+tls、F=trojan+tcp+tls、G=shadowsocks+grpc+tls。
+2. Xray/V2Ray单一核心应用简记：A=vless+kcp+seed、B=vmess+ws+tls、C=trojan+ws+tls、D=vless+h2c+tls、E=vless+tcp+tls（含XTLS Vision应用）、F=trojan+tcp+tls、G=shadowsocks+grpc+tls。
 3. Xray/V2Ray示例中各应用都配置了禁用BT。如不需要，可参考V2Ray(Other Configuration)中BT_config.json示例删除相关配置。
 4. Caddy插件单一应用简记：N=NaiveProxy(Caddy+forwardproxy)、T=Trojan-Go(Caddy+caddy-trojan)。
 5. 受限应用条件及场景，NaiveProxy的QUIC应用（即Caddy的HTTP/3代理应用）不是所有相关NaiveProxy示例都支持。
