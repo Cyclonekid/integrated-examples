@@ -15,26 +15,26 @@
 1. [V2Ray(VLESS\VMess+mKCP+seed)](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%5CVMess%2BmKCP%2Bseed))（vless/vmess+kcp+seed应用。vless+kcp+seed标记为A。）
 2. [Hysteria](https://github.com/lxhao61/integrated-examples/tree/main/Hysteria)（基于QUIC协议修改的双边加速代理应用。）
 #### &emsp;Xray/V2Ray的WebSocket反代应用
-1. [V2Ray(VMess+WS)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VMess%2BWS)%2BCaddy%5CNginx)（vmess+ws+tls反代应用。标记为B。）
-2. [V2Ray(SS+WS)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(SS%2BWS)%2BCaddy%5CNginx)（shadowsocks+ws+tls反代应用。）
-3. [V2Ray(SS+v2ray-plugin)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(SS%2Bv2ray-plugin)%2BCaddy%5CNginx)（兼容原版Shadowsocks加v2ray-plugin插件的WS反代应用。）
-4. [V2Ray(VLESS+WS)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BWS)%2BCaddy%5CNginx)（vless+ws+tls反代应用。）
-5. [V2Ray(Trojan+WS)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BWS)%2BCaddy%5CNginx)（trojan+ws+tls反代应用。标记为C。）
+1. [V2Ray(VMess+WS)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VMess%2BWS)%2BCaddy%5CNginx)（vmess+ws+tls应用。标记为B。）
+2. [V2Ray(SS+WS)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(SS%2BWS)%2BCaddy%5CNginx)（shadowsocks+ws+tls应用。）
+3. [V2Ray(SS+v2ray-plugin)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(SS%2Bv2ray-plugin)%2BCaddy%5CNginx)（兼容原版Shadowsocks加v2ray-plugin插件的WS应用。）
+4. [V2Ray(VLESS+WS)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BWS)%2BCaddy%5CNginx)（vless+ws+tls应用。）
+5. [V2Ray(Trojan+WS)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BWS)%2BCaddy%5CNginx)（trojan+ws+tls应用。标记为C。）
 #### &emsp;Xray/V2Ray的H2C反代应用
-1. [V2Ray(VMess+H2C)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VMess%2BH2C)%2BCaddy)（vmess+h2c+tls反代应用。）
-2. [V2Ray(VLESS+H2C)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BH2C)%2BCaddy)（vless+h2c+tls反代应用。标记为D。）
-3. [V2Ray(Trojan+H2C)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BH2C)%2BCaddy)（trojan+h2c+tls反代应用。）
+1. [V2Ray(VMess+H2C)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VMess%2BH2C)%2BCaddy)（vmess+h2c+tls应用。）
+2. [V2Ray(VLESS+H2C)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BH2C)%2BCaddy)（vless+h2c+tls应用。标记为D。）
+3. [V2Ray(Trojan+H2C)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BH2C)%2BCaddy)（trojan+h2c+tls应用。）
 #### &emsp;Xray/V2Ray的gRPC反代应用
-1. [V2Ray(VMess+gRPC)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VMess%2BgRPC)%2BCaddy%5CNginx)（vmess+grpc+tls反代应用。）
-2. [V2Ray(SS+gRPC)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(SS%2BgRPC)%2BCaddy%5CNginx)（兼容原版Shadowsocks加v2ray-plugin插件的gRPC反代应用。标记为G。）
-3. [V2Ray(VLESS+gRPC)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BgRPC)%2BCaddy%5CNginx)（vless+grpc+tls反代应用。）
-4. [V2Ray(Trojan+gRPC)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BgRPC)%2BCaddy%5CNginx)（trojan+grpc+tls反代应用。）
+1. [V2Ray(VMess+gRPC)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VMess%2BgRPC)%2BCaddy%5CNginx)（vmess+grpc+tls应用。）
+2. [V2Ray(SS+gRPC)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(SS%2BgRPC)%2BCaddy%5CNginx)（兼容原版Shadowsocks加v2ray-plugin插件的gRPC应用。标记为G。）
+3. [V2Ray(VLESS+gRPC)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BgRPC)%2BCaddy%5CNginx)（vless+grpc+tls应用。）
+4. [V2Ray(Trojan+gRPC)+Caddy\Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BgRPC)%2BCaddy%5CNginx)（trojan+grpc+tls应用。）
 #### &emsp;Trojan-Go/Trojan回落应用
 1. [Trojan-Go\Trojan+Nginx](https://github.com/lxhao61/integrated-examples/tree/main/Trojan-Go%5CTrojan%2BNginx)（Trojan-Go/Trojan回落Nginx应用。）
 2. [Trojan-Go\Trojan+Caddy(N)](https://github.com/lxhao61/integrated-examples/tree/main/Trojan-Go%5CTrojan%2BCaddy(N))（Trojan-Go/Trojan回落Caddy加NaiveProxy应用。）
 #### &emsp;Xray/V2Ray的VLESS与Trojan回落应用
-1. [V2Ray(VLESS+TCP+TLS)+Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BTCP%2BTLS)%2BNginx)（vless+tcp+tls回落Nginx应用。标记为E。）
-2. [V2Ray(VLESS+TCP+TLS)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BTCP%2BTLS)%2BCaddy)（vless+tcp+tls回落Caddy应用。标记为E。）
+1. [V2Ray(VLESS+TCP+TLS)+Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BTCP%2BTLS)%2BNginx)（vless+tcp+tls回落Nginx，含XTLS Vision应用。标记为E。）
+2. [V2Ray(VLESS+TCP+TLS)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(VLESS%2BTCP%2BTLS)%2BCaddy)（vless+tcp+tls回落Caddy，含XTLS Vision应用。标记为E。）
 3. [V2Ray(Trojan+TCP+TLS)+Nginx](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BTCP%2BTLS)%2BNginx)（trojan+tcp+tls回落Nginx应用。标记为F。）
 4. [V2Ray(Trojan+TCP+TLS)+Caddy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(Trojan%2BTCP%2BTLS)%2BCaddy)（trojan+tcp+tls回落Caddy应用。标记为F。）
 #### &emsp;Caddy插件应用
@@ -67,7 +67,7 @@
 3. [V2Ray(E+B+F+C+D+G+A)+Caddy(N)+Nginx\HAProxy](https://github.com/lxhao61/integrated-examples/tree/main/V2Ray(E%2BB%2BF%2BC%2BD%2BG%2BA)%2BCaddy(N)%2BNginx%5CHAProxy)（Trojan/Trojan-Go由Xray/V2Ray配置实现的综合应用。）
 #### &emsp;注意（以上所有示例）:
 1. Xray是V2Ray的超集，更好的整体性能和独有的XTLS Vision应用等一系列增强，且完全兼容V2Ray的v4版。
-2. Xray/V2Ray单一核心应用简记：A=vless+kcp+seed、B=vmess+ws+tls、C=trojan+ws+tls、D=vless+h2c+tls、E=vless+tcp+tls、F=trojan+tcp+tls、G=shadowsocks+grpc+tls。
+2. Xray/V2Ray单一核心应用简记：A=vless+kcp+seed、B=vmess+ws+tls、C=trojan+ws+tls、D=vless+h2c+tls、E=vless+tcp+tls（含XTLS Vision应用）、F=trojan+tcp+tls、G=shadowsocks+grpc+tls。
 3. Xray/V2Ray示例中各应用都配置了禁用BT。如不需要，可参考V2Ray(Other Configuration)中BT_config.json示例删除相关配置。
 4. Caddy插件单一应用简记：N=NaiveProxy(Caddy+forwardproxy)、T=Trojan-Go(Caddy+caddy-trojan)。
 5. 受限应用条件及场景，NaiveProxy的QUIC应用（即Caddy的HTTP/3代理应用）不是所有相关NaiveProxy示例都支持。
